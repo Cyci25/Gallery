@@ -4,20 +4,16 @@ import datetime as dt
 
 
 # Create your views here.
-# def welcome(request):
-#     return HttpResponse('image.html')
 def welcome(request):
-    return render(request, 'images.html')
+    return render(request, 'index.html')
 
-# def news_of_day(request):
-#     date = dt.date.today()
-#     # html = f'''
-#     #     <html>
-#     #         <body>
-#     #             <h1> {date.day}-{date.month}-{date.year}</h1>
-#     #         </body>
-#     #     </html>
-#     #         '''
-#     return render(request, 'images.html')
+def image(request, id):
+    try:
+        image = Image.objects.get(pk = id)
+
+    except DoesNotExist:
+        raise Http404()
+
+    return render(request, 'images.html', {"image": image})
 
 
