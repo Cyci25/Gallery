@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     ''
     'images.apps.ImagesConfig',
     'bootstrap3',
-    'bootstarp4',
+    'bootstrap4',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
