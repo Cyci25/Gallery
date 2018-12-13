@@ -1,9 +1,9 @@
-# Photos.me App
+# Gallery App
 
 
 #### 13th - Dec - 2018
 
-#### By **Cherucole**
+#### By **Cynthia Muriithi**
 
 ## Description
 
@@ -58,7 +58,7 @@ If you want to add any new features, or improve existing ones, feel free to send
 
 The MIT License (MIT)
 
-Copyright (c) 2018 Cythia Muriithi
+Copyright (c) 2018 Cynthia Muriithi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
